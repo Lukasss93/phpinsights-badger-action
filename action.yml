@@ -1,0 +1,19 @@
+name: 'PhpInsights Badger'
+description: 'Build your PhpInsights badges!'
+author: 'Luca Patera'
+inputs:
+  path:
+    description: 'PhpInsights json file path'
+    required: true
+  url:
+    description: 'Service Url to send data'
+    required: true
+  password:
+    description: 'Service Password'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
+branding:
+  icon: 'message-square'
+  color: 'blue'
