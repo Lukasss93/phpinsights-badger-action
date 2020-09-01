@@ -1,0 +1,349 @@
+{
+    "summary": {
+        "code": 94.2,
+        "complexity": 66.7,
+        "architecture": 83.3,
+        "style": 94,
+        "security issues": 0
+    },
+    "Code": [
+        {
+            "title": "Element name minimal length",
+            "insightClass": "ObjectCalisthenics\\Sniffs\\NamingConventions\\ElementNameMinimalLengthSniff",
+            "file": "src\\EventEmitterInterface.php",
+            "line": 7,
+            "message": "Function name \"on\" is only 2 chars long. Must be at least 3."
+        },
+        {
+            "title": "Element name minimal length",
+            "insightClass": "ObjectCalisthenics\\Sniffs\\NamingConventions\\ElementNameMinimalLengthSniff",
+            "file": "src\\EventEmitterTrait.php",
+            "line": 11,
+            "message": "Function name \"on\" is only 2 chars long. Must be at least 3."
+        },
+        {
+            "title": "Declare strict types",
+            "insightClass": "SlevomatCodingStandard\\Sniffs\\TypeHints\\DeclareStrictTypesSniff",
+            "file": "src\\EventEmitter.php",
+            "line": 1,
+            "message": "Missing declare(strict_types=1)."
+        },
+        {
+            "title": "Declare strict types",
+            "insightClass": "SlevomatCodingStandard\\Sniffs\\TypeHints\\DeclareStrictTypesSniff",
+            "file": "src\\EventEmitterInterface.php",
+            "line": 1,
+            "message": "Missing declare(strict_types=1)."
+        },
+        {
+            "title": "Parameter type hint",
+            "insightClass": "SlevomatCodingStandard\\Sniffs\\TypeHints\\ParameterTypeHintSniff",
+            "file": "src\\EventEmitterInterface.php",
+            "line": 7,
+            "message": "Method \\Lukasss93\\EventEmitter\\EventEmitterInterface::on() does not have parameter type hint nor @param annotation for its parameter $event."
+        },
+        {
+            "title": "Parameter type hint",
+            "insightClass": "SlevomatCodingStandard\\Sniffs\\TypeHints\\ParameterTypeHintSniff",
+            "file": "src\\EventEmitterInterface.php",
+            "line": 8,
+            "message": "Method \\Lukasss93\\EventEmitter\\EventEmitterInterface::once() does not have parameter type hint nor @param annotation for its parameter $event."
+        },
+        {
+            "title": "Parameter type hint",
+            "insightClass": "SlevomatCodingStandard\\Sniffs\\TypeHints\\ParameterTypeHintSniff",
+            "file": "src\\EventEmitterInterface.php",
+            "line": 9,
+            "message": "Method \\Lukasss93\\EventEmitter\\EventEmitterInterface::removeListener() does not have parameter type hint nor @param annotation for its parameter $event."
+        },
+        {
+            "title": "Parameter type hint",
+            "insightClass": "SlevomatCodingStandard\\Sniffs\\TypeHints\\ParameterTypeHintSniff",
+            "file": "src\\EventEmitterInterface.php",
+            "line": 10,
+            "message": "Method \\Lukasss93\\EventEmitter\\EventEmitterInterface::removeAllListeners() does not have parameter type hint nor @param annotation for its parameter $event."
+        },
+        {
+            "title": "Parameter type hint",
+            "insightClass": "SlevomatCodingStandard\\Sniffs\\TypeHints\\ParameterTypeHintSniff",
+            "file": "src\\EventEmitterInterface.php",
+            "line": 11,
+            "message": "Method \\Lukasss93\\EventEmitter\\EventEmitterInterface::listeners() does not have parameter type hint nor @param annotation for its parameter $event."
+        },
+        {
+            "title": "Parameter type hint",
+            "insightClass": "SlevomatCodingStandard\\Sniffs\\TypeHints\\ParameterTypeHintSniff",
+            "file": "src\\EventEmitterInterface.php",
+            "line": 12,
+            "message": "Method \\Lukasss93\\EventEmitter\\EventEmitterInterface::emit() does not have parameter type hint nor @param annotation for its parameter $arguments."
+        },
+        {
+            "title": "Parameter type hint",
+            "insightClass": "SlevomatCodingStandard\\Sniffs\\TypeHints\\ParameterTypeHintSniff",
+            "file": "src\\EventEmitterInterface.php",
+            "line": 12,
+            "message": "Method \\Lukasss93\\EventEmitter\\EventEmitterInterface::emit() does not have parameter type hint nor @param annotation for its parameter $event."
+        },
+        {
+            "title": "Parameter type hint",
+            "insightClass": "SlevomatCodingStandard\\Sniffs\\TypeHints\\ParameterTypeHintSniff",
+            "file": "src\\EventEmitterTrait.php",
+            "line": 11,
+            "message": "Method \\Lukasss93\\EventEmitter\\EventEmitterTrait::on() does not have parameter type hint nor @param annotation for its parameter $event."
+        },
+        {
+            "title": "Parameter type hint",
+            "insightClass": "SlevomatCodingStandard\\Sniffs\\TypeHints\\ParameterTypeHintSniff",
+            "file": "src\\EventEmitterTrait.php",
+            "line": 20,
+            "message": "Method \\Lukasss93\\EventEmitter\\EventEmitterTrait::once() does not have parameter type hint nor @param annotation for its parameter $event."
+        },
+        {
+            "title": "Parameter type hint",
+            "insightClass": "SlevomatCodingStandard\\Sniffs\\TypeHints\\ParameterTypeHintSniff",
+            "file": "src\\EventEmitterTrait.php",
+            "line": 31,
+            "message": "Method \\Lukasss93\\EventEmitter\\EventEmitterTrait::removeListener() does not have parameter type hint nor @param annotation for its parameter $event."
+        },
+        {
+            "title": "Parameter type hint",
+            "insightClass": "SlevomatCodingStandard\\Sniffs\\TypeHints\\ParameterTypeHintSniff",
+            "file": "src\\EventEmitterTrait.php",
+            "line": 41,
+            "message": "Method \\Lukasss93\\EventEmitter\\EventEmitterTrait::removeAllListeners() does not have parameter type hint nor @param annotation for its parameter $event."
+        },
+        {
+            "title": "Parameter type hint",
+            "insightClass": "SlevomatCodingStandard\\Sniffs\\TypeHints\\ParameterTypeHintSniff",
+            "file": "src\\EventEmitterTrait.php",
+            "line": 50,
+            "message": "Method \\Lukasss93\\EventEmitter\\EventEmitterTrait::listeners() does not have parameter type hint nor @param annotation for its parameter $event."
+        },
+        {
+            "title": "Parameter type hint",
+            "insightClass": "SlevomatCodingStandard\\Sniffs\\TypeHints\\ParameterTypeHintSniff",
+            "file": "src\\EventEmitterTrait.php",
+            "line": 55,
+            "message": "Method \\Lukasss93\\EventEmitter\\EventEmitterTrait::emit() does not have parameter type hint nor @param annotation for its parameter $arguments."
+        },
+        {
+            "title": "Parameter type hint",
+            "insightClass": "SlevomatCodingStandard\\Sniffs\\TypeHints\\ParameterTypeHintSniff",
+            "file": "src\\EventEmitterTrait.php",
+            "line": 55,
+            "message": "Method \\Lukasss93\\EventEmitter\\EventEmitterTrait::emit() does not have parameter type hint nor @param annotation for its parameter $event."
+        },
+        {
+            "title": "Property type hint",
+            "insightClass": "SlevomatCodingStandard\\Sniffs\\TypeHints\\PropertyTypeHintSniff",
+            "file": "src\\EventEmitterTrait.php",
+            "line": 9,
+            "message": "Property \\Lukasss93\\EventEmitter\\EventEmitterTrait::$listeners does not have @var annotation for its value."
+        },
+        {
+            "title": "Return type hint",
+            "insightClass": "SlevomatCodingStandard\\Sniffs\\TypeHints\\ReturnTypeHintSniff",
+            "file": "src\\EventEmitterInterface.php",
+            "line": 7,
+            "message": "Method \\Lukasss93\\EventEmitter\\EventEmitterInterface::on() does not have void return type hint."
+        },
+        {
+            "title": "Return type hint",
+            "insightClass": "SlevomatCodingStandard\\Sniffs\\TypeHints\\ReturnTypeHintSniff",
+            "file": "src\\EventEmitterInterface.php",
+            "line": 8,
+            "message": "Method \\Lukasss93\\EventEmitter\\EventEmitterInterface::once() does not have void return type hint."
+        },
+        {
+            "title": "Return type hint",
+            "insightClass": "SlevomatCodingStandard\\Sniffs\\TypeHints\\ReturnTypeHintSniff",
+            "file": "src\\EventEmitterInterface.php",
+            "line": 9,
+            "message": "Method \\Lukasss93\\EventEmitter\\EventEmitterInterface::removeListener() does not have void return type hint."
+        },
+        {
+            "title": "Return type hint",
+            "insightClass": "SlevomatCodingStandard\\Sniffs\\TypeHints\\ReturnTypeHintSniff",
+            "file": "src\\EventEmitterInterface.php",
+            "line": 10,
+            "message": "Method \\Lukasss93\\EventEmitter\\EventEmitterInterface::removeAllListeners() does not have void return type hint."
+        },
+        {
+            "title": "Return type hint",
+            "insightClass": "SlevomatCodingStandard\\Sniffs\\TypeHints\\ReturnTypeHintSniff",
+            "file": "src\\EventEmitterInterface.php",
+            "line": 11,
+            "message": "Method \\Lukasss93\\EventEmitter\\EventEmitterInterface::listeners() does not have void return type hint."
+        },
+        {
+            "title": "Return type hint",
+            "insightClass": "SlevomatCodingStandard\\Sniffs\\TypeHints\\ReturnTypeHintSniff",
+            "file": "src\\EventEmitterInterface.php",
+            "line": 12,
+            "message": "Method \\Lukasss93\\EventEmitter\\EventEmitterInterface::emit() does not have void return type hint."
+        },
+        {
+            "title": "Return type hint",
+            "insightClass": "SlevomatCodingStandard\\Sniffs\\TypeHints\\ReturnTypeHintSniff",
+            "file": "src\\EventEmitterTrait.php",
+            "line": 22,
+            "message": "Closure does not have void return type hint."
+        },
+        {
+            "title": "Return type hint",
+            "insightClass": "SlevomatCodingStandard\\Sniffs\\TypeHints\\ReturnTypeHintSniff",
+            "file": "src\\EventEmitterTrait.php",
+            "line": 50,
+            "message": "Method \\Lukasss93\\EventEmitter\\EventEmitterTrait::listeners() does not have return type hint nor @return annotation for its return value."
+        },
+        {
+            "title": "Void return",
+            "insightClass": "PhpCsFixer\\Fixer\\FunctionNotation\\VoidReturnFixer",
+            "file": "K:\\Programmazione\\Progetti Archiviati\\event-emitter\\src\\EventEmitterTrait.php",
+            "message": " \n@@ -22 +22 @@\n-        $onceListener = function () use (&$onceListener, $event, $listener) {\n+        $onceListener = function () use (&$onceListener, $event, $listener): void {\n",
+            "diff": " \n@@ -22 +22 @@\n-        $onceListener = function () use (&$onceListener, $event, $listener) {\n+        $onceListener = function () use (&$onceListener, $event, $listener): void {\n"
+        }
+    ],
+    "Complexity": [
+        {
+            "title": "Having `classes` with more than 5 cyclomatic complexity is prohibited - Consider refactoring",
+            "insightClass": "NunoMaduro\\PhpInsights\\Domain\\Insights\\CyclomaticComplexityIsHigh",
+            "file": "K:\\Programmazione\\Progetti Archiviati\\event-emitter\\src\\EventEmitterTrait.php",
+            "message": "6 cyclomatic complexity"
+        }
+    ],
+    "Architecture": [
+        {
+            "title": "Normal classes are forbidden. Classes must be final or abstract",
+            "insightClass": "NunoMaduro\\PhpInsights\\Domain\\Insights\\ForbiddenNormalClasses",
+            "file": "K:\\Programmazione\\Progetti Archiviati\\event-emitter\\src\\EventEmitter.php"
+        },
+        {
+            "title": "Superfluous interface naming",
+            "insightClass": "SlevomatCodingStandard\\Sniffs\\Classes\\SuperfluousInterfaceNamingSniff",
+            "file": "src\\EventEmitterInterface.php",
+            "line": 5,
+            "message": "Superfluous suffix \"Interface\"."
+        },
+        {
+            "title": "The use of `traits` is prohibited",
+            "insightClass": "NunoMaduro\\PhpInsights\\Domain\\Insights\\ForbiddenTraits",
+            "file": "K:\\Programmazione\\Progetti Archiviati\\event-emitter\\src\\EventEmitterTrait.php"
+        },
+        {
+            "title": "Superfluous trait naming",
+            "insightClass": "SlevomatCodingStandard\\Sniffs\\Classes\\SuperfluousTraitNamingSniff",
+            "file": "src\\EventEmitterTrait.php",
+            "line": 7,
+            "message": "Superfluous suffix \"Trait\"."
+        }
+    ],
+    "Style": [
+        {
+            "title": "End file newline",
+            "insightClass": "PHP_CodeSniffer\\Standards\\PSR2\\Sniffs\\Files\\EndFileNewlineSniff",
+            "file": "src\\EventEmitter.php",
+            "line": 8,
+            "message": "Expected 1 newline at end of file; 0 found"
+        },
+        {
+            "title": "End file newline",
+            "insightClass": "PHP_CodeSniffer\\Standards\\PSR2\\Sniffs\\Files\\EndFileNewlineSniff",
+            "file": "src\\EventEmitterTrait.php",
+            "line": 61,
+            "message": "Expected 1 newline at end of file; 0 found"
+        },
+        {
+            "title": "Space after not",
+            "insightClass": "PHP_CodeSniffer\\Standards\\Generic\\Sniffs\\Formatting\\SpaceAfterNotSniff",
+            "file": "src\\EventEmitterTrait.php",
+            "line": 13,
+            "message": "Expected 1 space(s) after NOT operator; 0 found"
+        },
+        {
+            "title": "Superfluous whitespace",
+            "insightClass": "PHP_CodeSniffer\\Standards\\Squiz\\Sniffs\\WhiteSpace\\SuperfluousWhitespaceSniff",
+            "file": "src\\EventEmitterTrait.php",
+            "line": 10,
+            "message": "Whitespace found at end of line"
+        },
+        {
+            "title": "Superfluous whitespace",
+            "insightClass": "PHP_CodeSniffer\\Standards\\Squiz\\Sniffs\\WhiteSpace\\SuperfluousWhitespaceSniff",
+            "file": "src\\EventEmitterTrait.php",
+            "line": 16,
+            "message": "Whitespace found at end of line"
+        },
+        {
+            "title": "Superfluous whitespace",
+            "insightClass": "PHP_CodeSniffer\\Standards\\Squiz\\Sniffs\\WhiteSpace\\SuperfluousWhitespaceSniff",
+            "file": "src\\EventEmitterTrait.php",
+            "line": 19,
+            "message": "Whitespace found at end of line"
+        },
+        {
+            "title": "Superfluous whitespace",
+            "insightClass": "PHP_CodeSniffer\\Standards\\Squiz\\Sniffs\\WhiteSpace\\SuperfluousWhitespaceSniff",
+            "file": "src\\EventEmitterTrait.php",
+            "line": 24,
+            "message": "Whitespace found at end of line"
+        },
+        {
+            "title": "Superfluous whitespace",
+            "insightClass": "PHP_CodeSniffer\\Standards\\Squiz\\Sniffs\\WhiteSpace\\SuperfluousWhitespaceSniff",
+            "file": "src\\EventEmitterTrait.php",
+            "line": 27,
+            "message": "Whitespace found at end of line"
+        },
+        {
+            "title": "Superfluous whitespace",
+            "insightClass": "PHP_CodeSniffer\\Standards\\Squiz\\Sniffs\\WhiteSpace\\SuperfluousWhitespaceSniff",
+            "file": "src\\EventEmitterTrait.php",
+            "line": 30,
+            "message": "Whitespace found at end of line"
+        },
+        {
+            "title": "Superfluous whitespace",
+            "insightClass": "PHP_CodeSniffer\\Standards\\Squiz\\Sniffs\\WhiteSpace\\SuperfluousWhitespaceSniff",
+            "file": "src\\EventEmitterTrait.php",
+            "line": 40,
+            "message": "Whitespace found at end of line"
+        },
+        {
+            "title": "Superfluous whitespace",
+            "insightClass": "PHP_CodeSniffer\\Standards\\Squiz\\Sniffs\\WhiteSpace\\SuperfluousWhitespaceSniff",
+            "file": "src\\EventEmitterTrait.php",
+            "line": 49,
+            "message": "Whitespace found at end of line"
+        },
+        {
+            "title": "Superfluous whitespace",
+            "insightClass": "PHP_CodeSniffer\\Standards\\Squiz\\Sniffs\\WhiteSpace\\SuperfluousWhitespaceSniff",
+            "file": "src\\EventEmitterTrait.php",
+            "line": 54,
+            "message": "Whitespace found at end of line"
+        },
+        {
+            "title": "Single blank line at eof",
+            "insightClass": "PhpCsFixer\\Fixer\\Whitespace\\SingleBlankLineAtEofFixer",
+            "file": "K:\\Programmazione\\Progetti Archiviati\\event-emitter\\src\\EventEmitter.php",
+            "message": " \n@@ -8 +8 @@\n-}\n\\ No newline at end of file\n+}\n",
+            "diff": " \n@@ -8 +8 @@\n-}\n\\ No newline at end of file\n+}\n"
+        },
+        {
+            "title": "Single blank line at eof",
+            "insightClass": "PhpCsFixer\\Fixer\\Whitespace\\SingleBlankLineAtEofFixer",
+            "file": "K:\\Programmazione\\Progetti Archiviati\\event-emitter\\src\\EventEmitterTrait.php",
+            "message": " \n@@ -61 +61 @@\n-}\n\\ No newline at end of file\n+}\n",
+            "diff": " \n@@ -61 +61 @@\n-}\n\\ No newline at end of file\n+}\n"
+        },
+        {
+            "title": "No whitespace in blank line",
+            "insightClass": "PhpCsFixer\\Fixer\\Whitespace\\NoWhitespaceInBlankLineFixer",
+            "file": "K:\\Programmazione\\Progetti Archiviati\\event-emitter\\src\\EventEmitterTrait.php",
+            "message": " \n@@ -10 +10 @@\n-    \n+\n@@ -16 +16 @@\n-        \n+\n@@ -19 +19 @@\n-    \n+\n@@ -24 +24 @@\n-            \n+\n@@ -27 +27 @@\n-        \n+\n@@ -30 +30 @@\n-    \n+\n@@ -40 +40 @@\n-    \n+\n@@ -49 +49 @@\n-    \n+\n@@ -54 +54 @@\n-    \n+\n",
+            "diff": " \n@@ -10 +10 @@\n-    \n+\n@@ -16 +16 @@\n-        \n+\n@@ -19 +19 @@\n-    \n+\n@@ -24 +24 @@\n-            \n+\n@@ -27 +27 @@\n-        \n+\n@@ -30 +30 @@\n-    \n+\n@@ -40 +40 @@\n-    \n+\n@@ -49 +49 @@\n-    \n+\n@@ -54 +54 @@\n-    \n+\n"
+        }
+    ],
+    "Security": []
+}

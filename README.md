@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Generate PhpInsights badges
-        uses: Lukasss93/phpinsights-badger@v1
+        uses: Lukasss93/phpinsights-badger@master
         with:
           url: 'https://myservice.com'
           password: ${{ secrets.password }}
