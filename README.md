@@ -45,3 +45,6 @@ jobs:
 |https://yourservice.com/author/repo/architecture|![Architecture](https://img.shields.io/badge/PHPInsights%20%7C%20Architecture%20-82.6%25-success.svg)|
 |https://yourservice.com/author/repo/style|![Style](https://img.shields.io/badge/PHPInsights%20%7C%20Style%20-89.1%25-success.svg)|
 |https://yourservice.com/author/repo/security_issues|![SecurityIssues](https://img.shields.io/badge/PHPInsights%20%7C%20Security%20Issues%20-5-red.svg)|
+
+## Badge styles
+Check the styles section on https://shields.io/
