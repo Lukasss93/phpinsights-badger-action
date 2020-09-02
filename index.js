@@ -1,6 +1,7 @@
 const core = require("@actions/core");
 const github = require("@actions/github");
 const axios = require("axios");
+const fs = require('fs');
 
 (async () => {
 
@@ -9,10 +10,10 @@ const axios = require("axios");
         const payload = github.context.payload;
 
         //get json file path
-        let path = core.getInput("path");
+        const path = core.getInput("path");
 
         //read json file
-        const phpinsights = require(path);
+        const phpinsights = JSON.parse(fs.readFileSync(path));
 
         //service credentials
         const url = core.getInput('url');
