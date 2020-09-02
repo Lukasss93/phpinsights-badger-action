@@ -1,5 +1,7 @@
 # 🛡 PhpInsights Badger
-This [GitHub Action](https://github.com/features/actions) generates [PhpInsights](https://github.com/nunomaduro/phpinsights) badges!
+[GitHub Action](https://github.com/features/actions) for generating [PhpInsights](https://github.com/nunomaduro/phpinsights) badges!
+
+⚠ The generated badges are self-hosted by using this [Lumen Service](https://github.com/Lukasss93/phpinsights-badger-server).
 
 ## Usage
 Generate badges on push event:
@@ -16,14 +18,14 @@ jobs:
       - name: Generate PhpInsights badges
         uses: Lukasss93/phpinsights-badger@master
         with:
-          url: 'https://myservice.com'
-          password: ${{ secrets.password }}
-          path : './test.json'
+          url: 'https://myservice.com' # Required: your lumen service url 
+          password: ${{ secrets.password }} # Required: your lumen service password 
+          path : './test.json' # Required: the test.json generated file path from phpinsights
 
 ```
 
 ## Inputs variables
 
-- **url** *required* `string` - Append a message to default message
-- **password** *required* `string` - Service Password
-- **path** *required* `string` - PhpInsights json file path
+- **url** *required* `string` - Your lumen service url 
+- **password** *required* `string` - Your lumen service password 
+- **path** *required* `string` - The test.json generated file path from phpinsights
