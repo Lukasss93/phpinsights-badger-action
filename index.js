@@ -20,7 +20,7 @@ const fs = require('fs');
         const password = core.getInput('password');
 
         //get repo user/name
-        const author = payload.repository.owner
+        const author = payload.repository.owner.name
         const repo = payload.repository.name;
 
         //upload data
