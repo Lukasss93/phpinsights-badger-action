@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Generate PhpInsights badges
-        uses: Lukasss93/phpinsights-badger@master
+        uses: Lukasss93/phpinsights-badger@v1
         with:
           url: 'https://yourservice.com' # Required: your lumen service url 
           password: ${{ secrets.password }} # Required: your lumen service password 
@@ -40,8 +40,8 @@ jobs:
 ## Getting generated badges
 |url|badge|
 |---|-----|
-|https://yourservice.com/<author>/<repo>/code|![Code](https://img.shields.io/badge/PHPInsights%20%7C%20Code%20-85.9%25-success.svg)|
-|https://yourservice.com/<author>/<repo>/complexity|![Complexity](https://img.shields.io/badge/PHPInsights%20%7C%20Complexity%20-74.2%25-yellow.svg)|
-|https://yourservice.com/<author>/<repo>/architecture|![Architecture](https://img.shields.io/badge/PHPInsights%20%7C%20Architecture%20-82.6%25-success.svg)|
-|https://yourservice.com/<author>/<repo>/style|![Style](https://img.shields.io/badge/PHPInsights%20%7C%20Style%20-89.1%25-success.svg)|
-|https://yourservice.com/<author>/<repo>/security_issues|![SecurityIssues](https://img.shields.io/badge/PHPInsights%20%7C%20Security%20Issues%20-5-red.svg)|
+|https://yourservice.com/&lt;author&gt;/&lt;repo&gt;/code|![Code](https://img.shields.io/badge/PHPInsights%20%7C%20Code%20-85.9%25-success.svg)|
+|https://yourservice.com/&lt;author&gt;/&lt;repo&gt;/complexity|![Complexity](https://img.shields.io/badge/PHPInsights%20%7C%20Complexity%20-74.2%25-yellow.svg)|
+|https://yourservice.com/&lt;author&gt;/&lt;repo&gt;/architecture|![Architecture](https://img.shields.io/badge/PHPInsights%20%7C%20Architecture%20-82.6%25-success.svg)|
+|https://yourservice.com/&lt;author&gt;/&lt;repo&gt;/style|![Style](https://img.shields.io/badge/PHPInsights%20%7C%20Style%20-89.1%25-success.svg)|
+|https://yourservice.com/&lt;author&gt;/&lt;repo&gt;/security_issues|![SecurityIssues](https://img.shields.io/badge/PHPInsights%20%7C%20Security%20Issues%20-5-red.svg)|
