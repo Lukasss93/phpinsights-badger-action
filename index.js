@@ -19,16 +19,18 @@ const axios = require("axios");
         const password = core.getInput('password');
 
         //get repo user/name
-        const repo = payload.repository.full_name;
+        const author = payload.repository.owner
+        const repo = payload.repository.name;
 
         //upload data
         await axios.post(url, {
             password: password,
+            author: author,
             repo: repo,
             file: phpinsights
         });
 
-    } catch (error){
+    } catch (error) {
         console.log(JSON.stringify(error, undefined, 2));
         core.setFailed(error.message);
     }
